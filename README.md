@@ -1,16 +1,16 @@
-# jade html loader for webpack
+# pug html loader for webpack
 
 ## Usage
 
 ``` javascript
-var html = require("jade-html!./file.jade");
-// => returns file.jade content as html
+var html = require("pug-html!./file.pug");
+// => returns file.pug content as html
 ```
 
 Allows you to get HTML back instead of a function reference. I found this
 useful for templates which render server side.
 
-Possible options are (all passed to jade.compile()):
+Possible options are (all passed to pug.compile()):
 
 * self   - set the context
 

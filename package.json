@@ -1,26 +1,26 @@
 {
-  "name": "jade-html-loader",
-  "version": "0.0.2",
-  "author": {
-    "name": "Scott Beck (@bline)"
+  "name": "pug-html-loader",
+  "version": "0.1.0",
+  "description": "pug to html loader module for webpack",
+  "author": "Scott Beck (@bline)",
+  "contributors": [{
+    "name": "Simon Lepel",
+    "email": "simbo@simbo.de"
+  }],
+  "keywords": [],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/simbo/pug-html-loader.git"
   },
-  "description": "jade to html loader module for webpack",
   "dependencies": {
     "enhanced-require": "^0.5.0-beta6",
     "loader-utils": "0.2.x"
   },
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/bline/jade-html-loader.git"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/mit-license.php"
-    }
-  ],
-  "readmeFilename": "README.md",
   "devDependencies": {
+    "pug": "^2.0.0-beta4"
+  },
+  "peerDependencies": {
     "pug": "^2.0.0-beta4"
   }
 }
