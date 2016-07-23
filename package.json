@@ -9,9 +9,6 @@
     "enhanced-require": "^0.5.0-beta6",
     "loader-utils": "0.2.x"
   },
-  "peerDependencies": {
-    "jade": "^1.7.0"
-  },
   "repository": {
     "type": "git",
     "url": "http://github.com/bline/jade-html-loader.git"
@@ -22,5 +19,8 @@
       "url": "http://www.opensource.org/licenses/mit-license.php"
     }
   ],
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "pug": "^2.0.0-beta4"
+  }
 }
